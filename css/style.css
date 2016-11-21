@@ -543,3 +543,58 @@ div.slider-nav span.left {
 	
 }
 /*Footer end*/
+
+/* Page Contacts begin */
+.contacts .bl-name h1, .v-prod .bl-name h1{
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+	color:#fff;
+	padding: 5px 0;
+	background: #339933;
+	padding-left: 60px;	
+}
+.contacts-content, .v-prod-content {
+	width: 100%;
+	padding-top: 20px;
+}
+.contact, .viddil-inf{
+	margin-bottom: 20px;
+}
+.contact p, .viddil p{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 10px;
+}
+.contact-name, .viddil-name{
+	vertical-align: middle;
+	margin-left: 30px;
+}
+.contact-name p{
+	font-size: 18px;
+    font-weight: 600;
+	padding-top: 25px;
+}
+
+
+.contact-inf, .viddil-inf{
+	width: 478px;
+	border-left: 1px solid #ccc;
+	padding: 5px;
+}
+.contact-inf p, .viddil-inf p{
+	text-align: left;
+	padding-left: 20px;
+}
+.viddil-name p{
+	font-size: 18px;
+    font-weight: 600;
+	padding-top: 8px;
+}
+
+
+/* Page Contacts end */
