@@ -432,8 +432,11 @@ div.slider-nav span.left {
 	text-indent: 30px;	
 	padding-bottom: 10px;
 }
+.bl-2-inf {
+	padding-bottom: 20px;
+}
 .product h2{
-	padding: 10px 0 10px 30px;
+	padding: 20px 0 20px 30px;
 	font-size: 18px;
 	color: #333;
 	font-weight: bolder;
@@ -572,18 +575,19 @@ div.slider-nav span.left {
 	font-size: 15px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
-	padding-bottom: 10px;
 }
 .contact-name, .viddil-name{
-	vertical-align: middle;
 	margin-left: 30px;
 }
-.contact-name p{
+.contact-name p,
+.viddil-name p{
 	font-size: 18px;
     font-weight: 600;
 	padding-top: 25px;
 }
-
+.viddil-name{
+	margin-top: 10px;
+}
 
 .contact-inf, .viddil-inf{
 	width: 478px;
@@ -594,13 +598,14 @@ div.slider-nav span.left {
 	text-align: left;
 	padding-left: 20px;
 }
-.viddil-name p{
-	font-size: 18px;
-    font-weight: 600;
-	padding-top: 8px;
+
+.viddil-inf {
+	display: inline-block;
+	vertical-align: middle;
 }
-
-
+.viddil-inf p{
+	margin: 8px 0px;
+}
 /* Page Contacts end */
 
 /*Page Company begin */
