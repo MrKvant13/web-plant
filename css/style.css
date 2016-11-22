@@ -60,11 +60,17 @@ a, a:hover {color: #000; text-decoration: none;}
 	margin: 0 auto;
 }
 
+#wrap {
+  position: relative;
+  min-height: 100%
+}
 
 #wrapper {
-	min-height: 100%;
+	/*min-height: 100%;
 	height: auto !important;
 	height: 100%;
+	*/
+	padding-bottom: 200px;
 }
 
 
@@ -424,7 +430,7 @@ div.slider-nav span.left {
 	background: url("../img/factory.png") no-repeat;
 	background-size: 100% 100%;
 }
-.bl-1-inf p{
+.bl-1-inf p,.history-inf p{
 	text-align: justify;
 	font-size: 15px;
 	font-weight: 400;
@@ -432,8 +438,11 @@ div.slider-nav span.left {
 	text-indent: 30px;	
 	padding-bottom: 10px;
 }
+.bl-2-inf {
+	padding-bottom: 20px;
+}
 .product h2{
-	padding: 10px 0 10px 30px;
+	padding: 20px 0 20px 30px;
 	font-size: 18px;
 	color: #333;
 	font-weight: bolder;
@@ -492,6 +501,17 @@ div.slider-nav span.left {
 
 
 /*Footer begin*/
+
+#footer{
+	position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0px;
+
+
+}
+
 .f-content{
 	height: 80px;
 	background: #339933;
@@ -543,3 +563,147 @@ div.slider-nav span.left {
 	
 }
 /*Footer end*/
+
+/* Page Contacts begin */
+
+.heading{
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+	color:#fff;
+	padding: 5px 0;
+	background: #339933;
+	padding-left: 60px;	
+}
+.contacts-content, .v-prod-content,  {
+	width: 100%;
+	padding-top: 20px;
+}
+.contact, .viddil-inf{
+	margin-top: 20px;
+}
+.second{
+	margin-bottom: 20px;
+}
+.contact p, .viddil p{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+.contact-name, .viddil-name{
+	margin-left: 30px;
+}
+.contact-name p,
+.viddil-name p{
+	font-size: 18px;
+    font-weight: 600;
+	padding-top: 25px;
+}
+.viddil-name{
+	margin-top: 10px;
+}
+
+.contact-inf, .viddil-inf{
+	width: 478px;
+	border-left: 1px solid #ccc;
+	padding: 5px;
+}
+.contact-inf p, .viddil-inf p{
+	text-align: left;
+	padding-left: 20px;
+}
+
+.viddil-inf {
+	display: inline-block;
+	vertical-align: middle;
+}
+.viddil-inf p{
+	margin: 8px 0px;
+}
+/* Page Contacts end */
+
+/*Page Company begin */
+.history-inf,
+.capacity-inf,
+.equipment-inf,
+.indexes-inf
+{
+	padding: 20px 10px 0 10px;
+}
+.capas{
+	margin-bottom: 10px;
+}
+.history-inf p,
+.capacity-inf p,
+.capacity-inf li,
+.equipment-inf p,
+.indexes-inf p
+{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 10px;
+}
+
+.capacity-inf h2,
+.equipment-inf h2{
+	font-size: 18px;
+    font-weight: 600;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+.capacity-inf ul,
+.equipment-inf ul{
+	list-style: disc;
+}
+.capacity-inf ul li,
+.equipment-inf ul li{
+	display: list-item;
+	margin-left: 20px;
+	font-size: 15px;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+.capacity-img{
+	width: 100%;
+	padding: 5px 1px 5px 5px;
+}
+.capacity-img img{
+	float: left;
+	width: 33%;
+	margin-right: 3px;
+}
+.capacity-img ul li:last-child{
+	margin-right: none;
+}
+
+
+.indexes-inf img{
+	margin-left: 164px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Page Company end */
